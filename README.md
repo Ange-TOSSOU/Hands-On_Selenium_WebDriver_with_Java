@@ -1,7 +1,7 @@
 # Hands-On Selenium WebDriver with Java, *by Boni García*
 
 ## Part I : Introduction
-- **Chapter 1** : A Primer on Selenium
+- **Chapter 1** : [A Primer on Selenium][chapter_1]
 - **Chapter 2** : Preparing for Testing
 
 ## Part II : The Selenium WebDriver API
@@ -15,3 +15,5 @@
 - **Chapter 8** : Testing Framework Specifics
 - **Chapter 9** : Third-Party Integrations
 - **Chapter 10** : Beyond Selenium
+
+[chapter_1]: https://github.com/Ange-TOSSOU/Hands-On_Selenium_WebDriver_with_Java/tree/main/Chapter_1
