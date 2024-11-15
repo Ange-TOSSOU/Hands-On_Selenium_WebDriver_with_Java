@@ -1,0 +1,61 @@
+{
+  "id": "28540786-4df6-4aec-954f-53f8a03fd39b",
+  "version": "2.0",
+  "name": "hello_selenium_ide",
+  "url": "https://bonigarcia.dev/",
+  "tests": [{
+    "id": "a645bfb3-f481-43f5-97b0-f5b6a3d55122",
+    "name": "basicTest",
+    "commands": [{
+      "id": "99f5f404-f54e-47e2-b331-a9c2d36022e2",
+      "comment": "",
+      "command": "open",
+      "target": "/selenium-webdriver-java/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9aa3a37-2b8c-431f-8ed8-acd662f1de2b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=GitHub",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1389146c-b06f-4d80-b77c-d501359b077c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.markdown-body h1",
+      "targets": [
+        ["css=.markdown-heading:nth-child(2) > .heading-element", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/div/div/div/div/react-partial/div/div/div[3]/div[2]/div/div[2]/article/div/h1", "xpath:idRelative"],
+        ["xpath=//article/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Hands-On Selenium WebDriver with Java ')]", "xpath:innerText"]
+      ],
+      "value": "Hands-On Selenium WebDriver with Java"
+    }, {
+      "id": "d3d48ac9-7d8f-4a23-9783-d9f16d144c11",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.markdown-heading > h1",
+      "targets": [],
+      "value": "Hands-On Selenium WebDriver with Java"
+    }, {
+      "id": "a326110f-7cd6-40a0-84fb-a90ed09ea88b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ae6a7f69-b91a-4611-864f-c8df311c4571",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a645bfb3-f481-43f5-97b0-f5b6a3d55122"]
+  }],
+  "urls": ["https://bonigarcia.dev/"],
+  "plugins": []
+}
